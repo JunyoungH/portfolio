@@ -74,8 +74,7 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        비전공, 학원 출신의 배움에 목 말라 있는 늦깎이 개발자 <br>
-                        새로운 도전을 두려워 하지 않는 개발자
+                        새로둔 도전, 변화를 두려워 하지 않는 개발자
                     </p>
                 </div>
             </div>
@@ -89,6 +88,21 @@
             <div data-date="2019.01 – 2021.01">
                 <div class="experience-title">
                     <div class="experience-logo">
+                        <img src="./images/bizentro.jpg" alt="비젠트로 주식회사">
+                    </div>
+                    <div>
+                        <h3>비젠트로 (주)</h3>
+                        <h4>Front End Developer - AI / Data Analysis Platform</h4>
+                    </div>
+                </div>
+                <p>
+                    <a href="#project-bizentro">AI 기반 데이터 분석 플랫폼 개발</a>
+                </p>
+            </div>
+
+            <div data-date="2019.01 – 2021.01">
+                <div class="experience-title">
+                    <div class="experience-logo">
                         <img src="./images/ibm.png" alt="IBM Philippines">
                     </div>
                     <div>
@@ -97,7 +111,7 @@
                     </div>
                 </div>
                 <p>
-                    IBM Japan과 연계하여 다양한 <a href="#projects">SI 프로젝트</a> 수행
+                    IBM Japan과 연계하여 다양한 <a href="#project-ibm">프로젝트</a> 수행
                 </p>
             </div>
 
@@ -113,8 +127,7 @@
                 </div>
                 <p>
                     공공 와이파이를 활용한 고객 데이터 수집 및 분석 서비스 <br>
-                    <a href="https://techstudio.com.sg/wifi-indoor-position-solutions/">WIRELESS INDOOR LOCATION & ANALYTICS SUITE (WILAS)</a>
-                    
+                    <a onclick="popupWindow('https://techstudio.com.sg/wifi-indoor-position-solutions', 'Project Reference - Takeda', window, 800, 670)">WIRELESS INDOOR LOCATION & ANALYTICS SUITE (WILAS)</a>
                     <ul>
                         <li>
                             SSO 로그인 모듈 기능 개선 
@@ -174,7 +187,20 @@
                 </div>
 
             </div>
+        </div>
 
+        <div class="education-block">
+            <div class="education-title">
+                <div class="education-logo">
+                    <img src="images/knou.png" alt="한국방송통신대학교">
+                </div>
+                <div>
+                    <h3>한국방송통신대학교</h3>
+                    <span class="education-date">2021.03 - 재학 중</span>
+                    <h4>컴퓨터과학과 재학 중 (3학년)</h4>
+                </div>
+
+            </div>
         </div>
         <!-- End .education-block -->
     </div>
@@ -184,10 +210,45 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
-                <div class="project no-image shadow-large">
+                <div id="project-bizentro" class="project no-image shadow-large">
+                    <div class="project-info">
+                        <h3>Project Name</h3>
+                        <h4>AI / Data Analysis Platform Development</h4>
+                        <div class="project-date">2021.03 - 진행 중</div>
+                  
+                        <h3>Objectives</h3>
+                        <p>
+                            스마트팩토리 서비스의 일환으로 IoT를 통해 수집된 데이터의 분석을 위한 AI 기반 데이터 분석 플랫폼 개발          
+                        </p>
+
+                        <h3>Responsibilities</h3>
+                        <ul>
+                            <li>기존 AngularJS 1.6으로 개발된 어플리케이션을 Angular 11으로 이전</li>
+                            <li>Spring Framework와 AngularJS 1.6이 통합된 환경에서 독립된 Client 어플리케이션과 REST API Server로 분리 이전</li>
+                            <li>D3.js를 사용하여 데이터분석 워크플로우 툴 개발</li>
+                            <li>D3.js를 사용하여 분석 된 데이터의 시각화 툴 개발</li>
+                        </ul>
+                        <div class="project-skills">
+                            <ul>
+                                <li>AngularJS v1.8</li>
+                                <li>Angular 11</li>
+                                <li>TypeScript</li>
+                                <li>SCSS</li>
+                                <li>Spring Framework</li>
+                                <li>PostgreSQL</li>
+                                <li>Apache Tomcat</li>
+                                <li>Nginx</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <div id="project-ibm" class="project no-image shadow-large">
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Takeda Pharmaceutical Company Limited. - AI SCRM Remote Detail</h3>
+                        <h3>Project Name</h3>
+                        <h4>Takeda Pharmaceutical Company Limited. - AI SCRM Remote Detail</h4>
                         <div class="project-date">2020.10 - 2021.01</div>
                   
                         <h3>Industry</h3>
@@ -195,7 +256,7 @@
 
                         <h3>Objectives</h3>
                         <p>
-                            Wantson Speech To Text를 사용하여 제약 영업 사원과 고객 간의 회의 내용을 분석하기 위한 어플리케이션 개발              
+                            Wantson Speech To Text를 사용하여 제약 영업 사원과 고객 간의 화상미팅의 실시간 분석을 통한 비대면 영업 지원 어플리케이션 개발              
                         </p>
                         <ul>
                             <li>실시간으로 대화 내용을 분석하여 영업에 도움되는 정보 제공 ( 추천 키워드, 키워드 검색, 관련 정보 등 )</li>
@@ -204,9 +265,9 @@
 
                         <h3>Responsibilities</h3>
                         <ul>
-                            <li>Watson Speech To 라이브러리를 사용한 대화 내용 시뮬레이션</li>
-                            <li>Web API를 사용하여 화상 회의 내용 녹화 기능 개발</li>
-                            <li>웹소켓을 활용하여 실시간 미디어 버퍼 전송 기능 개발</li>
+                            <li>클라이언트의 요구 조건에 대한 기술적 타당성 검토</li>
+                            <li>IBM Watson Speech To Text 라이브러리를 사용하여 회의음성을 텍스트 화, 화면에 표시 ( 채팅 형식 ) 기능 개발</li>
+                            <li>Web Socket을 활용하여 화상미팅 실시간 화면 녹화, 녹취 기능 개발</li>
                             <li>데이터 수집을 위한 REST API 서버 개발</li>
                         </ul>
                         <div class="project-skills">
@@ -219,25 +280,22 @@
                                 <li>Nginx</li>
                             </ul>
                         </div>
-                        <div class="project-link">
-                            <a href="#">View Project Demo</a>
-                        </div>
                     </div>
                     <!-- End .project-info -->
                 </div>
-                <!-- End .project -->
 
                 <div class="project no-image shadow-large">
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Kraft Inc. - AI Personal Support for Pharmacy</h3>
+                        <h3>Project Name</h3>
+                        <h4>Kraft Inc. - AI Personal Support for Pharmacy</h4>
                         <div class="project-date">2019.11 - 2021.01</div>
 
                         <h3>Industry</h3>
                         <p>Pharmaceutical & Life Science</p>
 
                         <h3>Objectives</h3>
-                        <p>AI, 데이터 분석을 활용한 약사 지원 어플리케이션 개발</p>
+                        <p>AI, 데이터 분석을 활용한 약국 업무 프로세스 지원 어플리케이션 개발</p>
                         <ul>
                             <li>환자 정보 표시</li>
                             <li>환자의 병력을 분석한 데이터의 시각화</li>
@@ -248,19 +306,23 @@
                         <h3>Responsibilities</h3>
                         <p>기능 추가 및 기존 어플케이션의 버그 수정, 유지 보수</p>
                         <ul>
-                            <li>알림 기능</li>
-                            <li>설문조사 기능</li>
-                            <li>자동 clipboard 복사 기능</li>
-                            <li>기타 데이터 비주얼화</li>
+                            <li>UAT 기간 중 보고 되는 버그 및 추가 요구 조건에 따른 기능 개발</li>
+                            <li>SQL 및 프론트엔드의 코드 수정을 통한 어플리케이션의 퍼포먼스 개선</li>
+                            <li>어플리케이션 환경의 모니터링</li>
                         </ul>
                         <div class="project-skills">
                             <ul>
                                 <li>Angular 7</li>
                                 <li>NodeJS</li>
                                 <li>MySQL</li>
-                                <li>IBM Cloud</li>
-                                <li>Kubernetes</li>
+                                <li>IBM Cloud Foundary</li>
+                                <li>IBM Cloud Kubernetes Cluster</li>
                             </ul>
+                        </div>
+                        <div class="project-reference">
+                            <a onclick="popupWindow('images/kraft.jpg', 'Project Reference - Kraft', window, 800, 670)">
+                                <img src="images/kraft.jpg" alt="Project Reference - Kraft">
+                            </a>
                         </div>
                     </div>
                     <!-- End .project-info -->
@@ -269,7 +331,8 @@
                 <div class="project no-image shadow-large">
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Takeda Pharmaceutical Company Limited. - Takeda AI SCRM DASH</h3>
+                        <h3>Project Name</h3>
+                        <h4>Takeda Pharmaceutical Company Limited. - Takeda AI SCRM DASH</h4>
                         <div class="project-date">2019.07 - 2019.11</div>
 
                         <h3>Industry</h3>
@@ -285,20 +348,30 @@
 
                         <h3>Responsibilities</h3>
                         <ul>
-                            <li>NodeJS 기반의 REST API 개발</li>
+                            <li>AngularJS와 ExpressJS가 통합 된 환경에서 독립된 프론트엔드와 REST API 백엔드 서버로 분리</li>
                             <li>nginx 개발 환경 설정</li>
-                            <li>vis.js 를 활용하여 유저 상호작용이 가능한 네트워크 분석 데이터 시각화</li>
-                            <li>어플리케이션 퍼포먼스 개선</li>
+                            <li>vis.js를 활용하여 유저 상호 작용이 가능한 네트워크 분석 데이터 시각화 기능 개발</li>
+                            <li>페이지 렌더링 퍼포먼스 개선</li>
                         </ul>
                         <div class="project-skills">
                             <ul>
                                 <li>AngularJS v1.8</li>
                                 <li>SCSS</li>
+                                <li>D3.js</li>
                                 <li>NodeJS</li>
                                 <li>MSSQL</li>
                                 <li>Nginx</li>
                                 <li>Gulp</li>
                             </ul>
+                        </div>
+
+                        <div class="project-reference">
+                            <a onclick="popupWindow('images/takeda_1.png', 'Project Reference - Takeda', window, 800, 670)">
+                                <img src="images/takeda_1.png" alt="Project Reference - Takeda">
+                            </a>
+                            <a onclick="popupWindow('images/takeda_2.png', 'Project Reference - Takeda', window, 800, 670)">
+                                <img src="images/takeda_2.png" alt="Project Reference - Takeda">
+                            </a>
                         </div>
                     </div>
                     <!-- End .project-info -->
@@ -307,7 +380,8 @@
                 <div class="project no-image shadow-large">
                     <!-- End .project-image -->
                     <div class="project-info">
-                        <h3>Takeda Pharmaceutical Company Limited. - Takeda AI SCRM DASH</h3>
+                        <h3>Project Name</h3>
+                        <h4>Takeda Pharmaceutical Company Limited. - Takeda AI SCRM DASH</h4>
                         <div class="project-date">2019.02 - 2019.03</div>
 
                         <h3>Industry</h3>
@@ -346,9 +420,11 @@
         <h2 class="heading">Skills</h2>
         <ul>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>NodeJS</li>
             <li>AngularJS</li>
             <li>Angular</li>
+            <li>D3.js</li>
             <li>Java</li>
             <li>Spring Framework</li>
             <li>Spring Boot</li>
@@ -360,7 +436,7 @@
     <!-- End #contact -->
 
     <footer>
-        <div class="container">
+        <div id="contact" class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
